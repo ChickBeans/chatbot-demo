@@ -59,40 +59,7 @@ export default class App extends React.Component {
     }
   };
 
-  // initAnswerの初期化
-  // initAnswer = () => {
-  //   // defaultDatasetからcurrentIdを格納
-  //   const initDataset = this.state.dataset[this.state.currentId];
-  //   const initAnswers = initDataset.answers;
-  //   // 初期値の取得
-  //   this.setState({
-  //     answers: initAnswers
-  //   })
-  // }
-
-  // initChats = () => {
-  //   // defaultDatasetからcurrentIdを格納
-  //   const initDataset = this.state.dataset[this.state.currentId];
-  //   const chat = {
-  //     text: initDataset.question ,
-  //     type: 'question'
-  //   }
-
-  //   const chats = this.state.chats;
-  //   // 破壊的…
-  //   chats.push(chat);
-  //   // 初期値の取得
-  //   this.setState({
-  //     // 新たな要素が追加された配列に置き換わる
-  //     chats: chats
-  //     // setStateを用いてないのでエラーが出てしまう
-  //     // chats: this.state.chats.push(chat)
-  //   })
-  // }
-
   componentDidMount() {
-    // this.initChats()
-    // this.initAnswer()
     const initAnswer = "";
     // 回答選択画面の表示
     this.selectAnswer(initAnswer, this.state.currentId);
