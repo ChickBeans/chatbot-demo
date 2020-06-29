@@ -1,3 +1,15 @@
+### Link: https://chatbot-demo-3e871.web.app/
+## これはトラハックさんの動画教材で作成したでもアプリです。
+
+### 学び
+1. create-react-app環境下での開発
+2. firebaseの使用とデプロイ
+3. チャットボット作成におけるデータ設計の考え方
+4. classComponentとstate、functionalComponentとHooks
+5. Hooksを用いる利点と書き方
+6. materialUIを用いた開発、編集
+7. slackでのお問い合わせ通知（APIの連携）
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +78,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
